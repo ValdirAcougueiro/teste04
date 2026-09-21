@@ -5,3 +5,11 @@
 // assegurar o armazenamento de dados através do localStorage. Adicionalmente,
 // você deverá garantir que o código JavaScript seja modularizado e organizado
 // por áreas de funcionalidade.
+var test = document.getElementById('teste');
+console.log(test);
+
+document.getElementById('meuBotao').addEventListener('click', function() {
+    alert('Botão clicado!');
+  });
+
+document.write(test.innerHTML);
