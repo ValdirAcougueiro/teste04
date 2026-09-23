@@ -6,6 +6,25 @@
 // você deverá garantir que o código JavaScript seja modularizado e organizado
 // por áreas de funcionalidade.
 
+const nomequa = document.querySelector("#nomequatro");
+const emailqua = document.querySelector("#emailquatro");
+const telequa = document.querySelector("#telquatro");
+const butquatro = document.querySelector("#buttonquatro");
+const resultqua = document.querySelector("#resquatro");
+
+butquatro.addEventListener('click', mostra);
+
+function mostra(e) {
+  console.log(nomequa.value);
+  console.log(emailqua.value);
+  console.log(telequa.value);
+
+    resultqua.innerHTML = nomequa.value + emailqua.value  + telequa.value;
+};
+
+
+
+
 
 //preventDefault()
 const formDefault = document.querySelector(".formtres");
